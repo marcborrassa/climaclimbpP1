@@ -390,26 +390,6 @@ footer #social-media-footer ul li:hover a .fa-twitter {
   color:#333;
 }
 
-/* Pagination */
-
-.pagination{
-  padding:8px;
-  text-align:center;
-  font-weight:bold;
-}
-
-.pagination a{
-  border-top: 3px solid white;
-  display: inline-block;
-  padding:8px 16px;
-  transition:0.4s;
-}
-
-.pagination a:hover{
-  text-decoration: none;
-  border-top:3px solid black;
-}
-
 /* Single Blogpost */
 
 #post-container{
@@ -514,7 +494,7 @@ footer #social-media-footer ul li:hover a .fa-twitter {
 
   footer #social-media-footer a .fa-facebook,
   footer #social-media-footer a .fa-youtube,
-  footer #social-media-footer a .fa-github {
+  footer #social-media-footer a .fa-twitter {
     color: black;
     transition: 0.4s;
   }
