@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ClimaClimb</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+          crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js"></script>
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css" rel="stylesheet">
+
+</head>
+
+<body>
+<div id="slideout-menu">
+    <ul>
+        <li>
+            <a href="home.html">Inici</a>
+        </li>
+        <li>
+            <a href="about.html">El projecte</a>
+        </li>
+        <li>
+            <a href="map.html">Zones d'escalada</a>
+        </li>
+        <li>
+            <a href="contact.html">Contacta</a>
+        </li>
+        <li>
+            <input type="text" placeholder="Search Here">
+        </li>
+    </ul>
+</div>
+
+<nav>
+    <div id="logo-img">
+        <a href="#">
+            <img src="images/logo.png" alt="ClimaClimb Logo">
+        </a>
+    </div>
+    <div id="menu-icon">
+        <i class="fas fa-bars"></i>
+    </div>
+    <ul>
+        <li>
+            <a href="home.html">Inici</a>
+        </li>
+        <li>
+            <a class="active" href="about.html">El projecte</a>
+        </li>
+        <li>
+            <a href="map.html">Zones d'escalada</a>
+        </li>
+        <li>
+            <a  href="contact.html">Contacta</a>
+        </li>
+        <li>
+            <div id="search-icon">
+                <i class="fas fa-search"></i>
+            </div>
+        </li>
+    </ul>
+</nav>
+
+<div id="searchbox">
+    <input type="text" placeholder="Search Here">
+</div>
+
+<main>
+    <h2 class="page-heading">El projecte</h2>
+
+    <section>
+        <div class="xc">
+            <div class="card-description">
+                <a href="blogpost.html">
+                    <h3>Introducció</h3>
+                </a>
+                <p>
+                    Les prediccions i la captació d’informació climàtica i meteorològica en general, com
+                    per exemple la temperatura, precipitació o la velocitat del vent han sigut i segueixen
+                    esdevenint actualment una eina de gran importància a l’hora d’ajudar a prevenir
+                    obstacles, riscos i desastres provocats per aquests mateixos factors.
+                    S’ha de tenir en compte que fins fa poc més de 10 anys, la cessió de dades d’aquest
+                    estil no era una pràctica tan freqüent com s’ha tornat avui en dia, la qual cosa feia passar
+                    inadvertides i sense cap previsió condicions meteorològiques que provocaven pèrdues
+                    abundants a activitats i recursos sensibles als canvis meteo-climàtics, com per exemple
+                    les sequeres o pèrdues de conreu a comunitats sustentades per aquests recursos. és
+                    d’aquesta manera com a partir del 2009 es va estendre i impulsar gràcies al GFCS (Global
+                    Framework From Climate Services) la pràctica d’elaborar serveis climàtics per evitar
+                    aquest tipus de situacions.
+
+                    Segons la World Metrorological Organization, es defineix un servei climàtic com: “una
+                    ajuda en la presa de decisions per a organitzacions i persones a partir de derivar
+                    informació climàtica”. Actualment conformen una eina essencial de meteorologia
+                    aplicada que per una banda aconsegueixen ajudar a mitigar i adaptar-se als efectes del
+                    canvi climàtic a través de transformar la informació climàtica en productes
+                    personalitzats com: projeccions, prediccions, tendències, anàlisi econòmica,
+                    assessorament sobre les millors pràctiques, avaluació de solucions i qualsevol altre
+                    servei en relació amb el clima, que pugui ser d’utilitat per a la societat en general, i per
+                    altra banda esdevenen un pont fiable entre les dades climàtiques i l’usuari final tot
+                    comunicant-li de forma efectiva, il·lustrada i comprensible la informació demandada.
+                    És a partir d’aquesta base teòrica, com aquest treball que constitueix la pràctica final
+                    dins de l’assignatura Projectes 5, la qual es troba integrada en el primer quadrimestre
+                    del tercer curs del grau de Geografia, anàlisi territorial i sostenibilitat impartit per la
+                    universitat Rovira i Virgili, ha encarregat a l’alumnat que elabori per a la zona del Priorat
+                    una sèrie de serveis climàtics dirigits a donar suport a una activitat especifica que es du
+                    a terme al territori i que és sensible a les variacions meteorològiques i climàtiques.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-description">
+                <a href="#">
+                    <h3>Variables</h3>
+                </a>
+                <p>
+                    Un procés de càlcul de variables a partir de predicció meteorològica podnerada a la morfologia del propi terreny.
+                </p>
+            </div>
+            <div class="card-image">
+                <a>
+                    <img src="images/variables.png" alt="Card Image">
+                </a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-description">
+                <a href="#">
+                    <h3>Procés de creació</h3>
+                </a>
+                <p>
+                    Automatitzat amb QGIS per la creació del principal factor de validació
+                </p>
+            </div>
+            <div class="card-image">
+                <a>
+                    <img src="images/builder.png" alt="Card Image">
+                </a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-description">
+                <a href="https://rovira-my.sharepoint.com/:b:/r/personal/39930171-d_epp_urv_cat/Documents/GEOGRAFIA/XX_obsolet/tercer/Q1/5-%20PROJECTE%205/entregues/Projecte%205.%20Escalada.pdf?csf=1&web=1&e=5F2ZTK" target="_blank" class="btn-readmore">Llegeix el projecte sencer</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="left-footer">
+            <h3>Enllaços ràpids</h3>
+            <p>
+            <ul>
+                <li>
+                    <a href="home.html">Inic</a>
+                </li>
+                <li>
+                    <a href="about.html">El projecte</a>
+                </li>
+                <li>
+                    <a href="map.html">Zones d'escalada</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contacta</a>
+                </li>
+            </ul>
+            </p>
+        </div>
+
+        <div id="right-footer">
+            <h3>Segueix-nos a:</h3>
+            <div id="social-media-footer">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=https://twitter.com/marcborrassa>
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p>Climaclimb 2021©</p>
+        </div>
+    </footer>
+</main>
+<script src="main.js"></script>
+</body>
+
+</html>

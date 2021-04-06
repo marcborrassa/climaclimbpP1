@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ClimaClimb</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+          crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js"></script>
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css" rel="stylesheet">
+    <style>
+        input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+    </style>
+
+</head>
+
+<body>
+
+<div id="slideout-menu">
+    <ul>
+        <li>
+            <a href="home.html">Inici</a>
+        </li>
+        <li>
+            <a href="about.html">El projecte</a>
+        </li>
+        <li>
+            <a href="map.html">Zones d'escalada</a>
+        </li>
+        <li>
+            <a href="contact.html">Contacta</a>
+        </li>
+        <li>
+            <input type="text" placeholder="Search Here">
+        </li>
+    </ul>
+</div>
+
+<nav>
+    <div id="logo-img">
+        <a href="#">
+            <img src="images/logo.png" alt="ClimaClimb Logo">
+        </a>
+    </div>
+    <div id="menu-icon">
+        <i class="fas fa-bars"></i>
+    </div>
+    <ul>
+        <li>
+            <a  href="home.html">Inici</a>
+        </li>
+        <li>
+            <a href="about.html">El projecte</a>
+        </li>
+        <li>
+            <a href="map.html">Zones d'escalada</a>
+        </li>
+        <li>
+            <a class="active" href="contact.html">Contacta</a>
+        </li>
+        <li>
+            <div id="search-icon">
+                <i class="fas fa-search"></i>
+            </div>
+        </li>
+    </ul>
+</nav>
+
+<div id="searchbox">
+    <input type="text" placeholder="Search Here">
+</div>
+
+<main>
+    <h2 class="page-heading">Contacta</h2>
+    <div class="container">
+        <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="lname">e-mail</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your e-mail">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+
+</main>
+</body>
+<footer>
+    <div id="left-footer">
+        <h3>Enllaços ràpids</h3>
+        <p>
+        <ul>
+            <li>
+                <a href="home.html">Inic</a>
+            </li>
+            <li>
+                <a href="about.html">El projecte</a>
+            </li>
+            <li>
+                <a href="map.html">Zones d'escalada</a>
+            </li>
+            <li>
+                <a href="contact.html">Contacta</a>
+            </li>
+        </ul>
+        </p>
+    </div>
+
+    <div id="right-footer">
+        <h3>Segueix-nos a:</h3>
+        <div id="social-media-footer">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href=https://twitter.com/marcborrassa>
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <p>Climaclimb 2021©</p>
+    </div>
+</footer>
+</html>

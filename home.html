@@ -2,15 +2,231 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Climaclimb</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+          crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
 </head>
-<body>
-    <h1>The Moon's distance to Earth is 384,402 km</h1>
-    <p>The Moon's      distance to Earth is 384,402 km</p>
-    <p>The Moon's distance to Earth is 384,402 km</p>
-     <hr>
-    <p>The Moon's distance to Earth<br>is 384,402 km</p>
 
+<body>
+
+<div id="slideout-menu">
+    <ul>
+        <li>
+            <a href="home.html">Inici</a>
+        </li>
+        <li>
+            <a href="about.html">El projecte</a>
+        </li>
+        <li>
+            <a href="map.html">Zones d'escalada</a>
+        </li>
+        <li>
+            <a href="contact.html">Contacta</a>
+        </li>
+        <li>
+            <input type="text" placeholder="Search Here">
+        </li>
+    </ul>
+</div>
+
+<nav>
+    <div id="logo-img">
+        <a href="#">
+            <img src="images/logo.png" alt="ClimaClimb Logo">
+        </a>
+    </div>
+    <div id="menu-icon">
+        <i class="fas fa-bars"></i>
+    </div>
+    <ul>
+        <li>
+            <a class="active" href="home.html">Inici</a>
+        </li>
+        <li>
+            <a href="about.html">El projecte</a>
+        </li>
+        <li>
+            <a href="map.html">Zones d'escalada</a>
+        </li>
+        <li>
+            <a href="contact.html">Contacta</a>
+        </li>
+        <li>
+            <div id="search-icon">
+                <i class="fas fa-search"></i>
+            </div>
+        </li>
+    </ul>
+</nav>
+
+<div id="searchbox">
+    <input type="text" placeholder="Search Here">
+</div>
+
+<div id="banner" >
+
+    <img src="images/logobanner.png">
+
+</div>
+
+<main>
+    <a href="about.html">
+        <h2 class="section-heading">El projecte</h2>
+    </a>
+
+    <section>
+        <div class="card">
+            <div class="card-image">
+                <a href="about.html">
+                    <img src="images/qgis.png" alt="Card Image">
+                </a>
+            </div>
+
+            <div class="card-description">
+                <a href="about.html">
+                    <h3>El projecte</h3>
+                </a>
+                <p>
+                    El projecte es basa primordialment en elaborar un servei climàtic encarat a la pràctica
+                    de l’escalada esportiva al Priorat amb la finalitat d'universalitzar la lògica a altres indrets,
+                    perquè doni informació de suport als practicants de l’activitat i als agents del territori amb
+                    la finalitat de millorar l'accés a la pràctica segura d'aquest esport i millorar
+                    l'infraestructura turística de les destinacions turístiques d'escalada.
+                </p>
+                <a href="about.html" class="btn-readmore">Llegeix-ne més</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <a href="http://www.indecis.eu/" target="_blank">
+                    <img src="http://www.indecis.eu/images/indecis-b.png" alt="Card Image">
+                </a>
+            </div>
+
+            <div class="card-description">
+                <a href="http://www.indecis.eu/">
+                    <h3>Un servei climàtic de l'escalada</h3>
+                </a>
+                <p>
+                    Aquest projecte fruit de l'assignatura "projecte 5" del grau de Geografia, Anàlisi territorial
+                    i sostenibilitat. Un servei que ara segueix el seu camí com un servei climàtic del projecte indecis.
+                </p>
+                <a href="http://www.indecis.eu/" target="_blank" class="btn-readmore">Projecte indecis</a>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section>
+        <div class="card">
+            <div class="card-image">
+                <a href="map.html">
+                    <img src="images/zones.png" alt="Card Image">
+                </a>
+            </div>
+
+            <div class="card-description">
+                <a href="map.html">
+                    <h3>Visor del servei climàtic de l'escalada</h3>
+                </a>
+                <p>
+                    Accedeix al visor del servei climàtic per consultar la previsió meteorològica
+                    pel dia que tens previst anar a escalar, a l'hora que vulguis i on vulguis.
+
+                </p>
+                <a href="map.html" class="btn-readmore">Visor del servei climàtic</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <a href="#">
+                    <img src="https://www.turismesiurana.org/sites/default/files/styles/ts_bt_slideshow_home/public/3-3_-_escalada_a_siurana.jpg?itok=UFbRy1YS" alt="Card Image">
+                </a>
+            </div>
+
+            <div class="card-description">
+                <a href="#">
+                    <h3>Un projecte col·laboratiu</h3>
+                </a>
+                <p>
+                    Aquest és un projecte col·laboratiu en el que l'usuari també pot incorporar vies
+                    d'escalada en cas de que no s'inclogui en el visor per tal d'aplicar l'algoritme
+                    i calcular-ne la previsió, tots hi guanyem!
+                </p>
+                <a href="#" class="btn-readmore">Puja una nova via!</a>
+            </div>
+        </div>
+    </section>
+
+    <h2 class="section-heading">Proximament a IOS i Android</h2>
+
+    <section id="section-source">
+        <p>
+            Actualment l'equip esta treballant per portar una versió APP del servei climàtic a les botigues App Store i Google Play.
+        </p>
+        <div class="section img">
+            <a href="https://drive.google.com/file/d/16z4MTDNOU8I_K02iuPnCtSL-LW28rs_9/view?usp=sharing" target="_blank">
+                <img  src="images/app.png" alt="Card Image">
+            </a>
+        </div>
+        <a href="https://drive.google.com/file/d/16z4MTDNOU8I_K02iuPnCtSL-LW28rs_9/view?usp=sharing" target="_blank" class="btn-readmore">Veure la demo</a>
+    </section>
+
+    <footer>
+        <div id="left-footer">
+            <h3>Enllaços ràpids</h3>
+            <p>
+            <ul>
+                <li>
+                    <a href="home.html">Inic</a>
+                </li>
+                <li>
+                    <a href="about.html">El projecte</a>
+                </li>
+                <li>
+                    <a href="map.html">Zones d'escalada</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contacta</a>
+                </li>
+            </ul>
+            </p>
+        </div>
+
+        <div id="right-footer">
+            <h3>Segueix-nos a:</h3>
+            <div id="social-media-footer">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=https://twitter.com/marcborrassa>
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p>Climaclimb 2021©</p>
+        </div>
+    </footer>
+
+</main>
+
+    <script src="main.js"></script>
 </body>
 </html>
