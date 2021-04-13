@@ -421,13 +421,6 @@ footer #social-media-footer ul li:hover a .fa-twitter {
   box-shadow: inset 27px 0 51px -18px rgba(0,0,0,0.75);
 }
 
-/* Comments section */
-
-#comments-section{
-  border-top: 2px solid #eee;
-  padding:8px;
-}
-
 
 /* Media Queries */
 

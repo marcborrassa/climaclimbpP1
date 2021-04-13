@@ -107,7 +107,7 @@ let pol = L.polygon(
   {color: "grey", fillColor: "red", weight: 4}
 ).addTo(map);
 
-// Add popup
+// Add popup3
 pol.bindPopup(
     "Zona d'escalada:</b>" +
     "<b> El cremat</b>."
@@ -119,7 +119,7 @@ let legend = L.control({position: "bottomleft"});
 // Function that runs when legend is added to map
 legend.onAdd = function() {
 
-    // Create Div Element and Populate it with HTML
+    // Create Div Element and Populate it HTML
     let div = L.DomUtil.create("div", "legend");
     div.innerHTML =
         '<p><b>Prediccio climàtica</b></p><hr>' +
