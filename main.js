@@ -4,6 +4,7 @@ const searchIcon = document.getElementById("search-icon");
 const searchBox = document.getElementById("searchbox");
 
 searchIcon.addEventListener('click', function () {
+alert("PERQUÈ NO FUNCIONA?");
   if (searchBox.style.top == '72px') {
     searchBox.style.top = '24px';
     searchBox.style.pointerEvents = 'none';
