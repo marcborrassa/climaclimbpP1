@@ -24,12 +24,18 @@
         }
         .leaflet-popup-content {
             width:auto;
-            padding-right:10px;
+            line-height: 1;
+            background-color:#ffe268;
+            align-items: center;
         }
+        .leaflet-popup-content img {
+            margin: 0 auto; display:block;
+            }
         .leaflet-tooltip {
             background: none;
             box-shadow: none;
             border: none;
+            background-color:red;
         }
         .leaflet-tooltip-left:before, .leaflet-tooltip-right:before {
             border: 0px;
