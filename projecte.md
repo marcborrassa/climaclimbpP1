@@ -10,6 +10,8 @@ Aquest treball és la contiuitat de l'assignatura de projecte 5, en el que es de
 validat per la creació d'un índex de valoració climàtica per l'escalada esportiva. Si segueixes llegint s'exposen els objectius i part de la
 metodologia utilitzada per fer aquesta pàgina web.
 
+El contingut de la pàgina web prové 100% del projecte realitzat en l'assignatura de projete 5.
+
 En el projecte final s'hi inclouen els continguts que s'han creat per dur a terme la pràctica 1 i 2, en els que es 
 reutilitzen tant la pàgina web, el contingut i els respectius estils i les 2 funcions de JS, com la integració de l'API.
 
