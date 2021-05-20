@@ -13,7 +13,6 @@ textarea {
   border: 2px;
   background-color: #ffe268;
     </style>
-
     <style>
         p {
   line-height: 1.5;
@@ -41,8 +40,7 @@ textarea {
     <option value="47002">Margalef</option>
 </select>
 <br>
-<div id="app">
-    <div>
+<div id="app"><div>
 
         <script>
 function modifyWeather() {
@@ -85,15 +83,11 @@ function modifyWeather() {
             console.log("Estat del cel a les XX:XX: " + sky_status);
 
             appDiv.innerHTML = "<p>" + "Estat del cel: " + sky_status + "<br> Precipitació: " + rain + "<br> Probabilita de pluja: " + probPrec + "<br> Probabilita de tempesta: " + tor + "<br> Temperatura: " + temp + "ºC" + "<br> Ràfaga de vent: " + vent + " Velocitat " + velVent + "Km/h" + "</p>";
-
-
-
         }
     };
     xhr.send();
 }
         </script>
-
 
 </body>
 </html>
