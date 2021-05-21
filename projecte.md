@@ -21,9 +21,11 @@ S'hi afegeixen els continguts que s'han treballat en la darrera part de l'assign
 Els objectius que es plantejen en aquest projecte és formalitzar la part de comunicació del servei climàtic en una fase 
 inical.
 
-El servei climàtic ha de donar resposta a les condicions climàtiques
+A banda dels objectius que planteja l'assignatura, el servei climàtic ha de donar resposta a les condicions climàtiques
 que hi pugui haber en un lloc determinat i unes condicions determinades, per tant, 
-aquesta pàgina web és l'inici del que podria arribar a ser el servei climàtic:
+aquesta pàgina web és l'inici del que podria arribar a ser el servei climàtic.
+
+##Què podem trobar a la pàgina?
 
 - La pàgina compta amb un visor de le zones d'escalada i els sectors.
 - Compta també amb el que podria ser un servei colaboratiu, on els usuaris podrien comunicar noves zones o sectors.
@@ -32,7 +34,7 @@ aquesta pàgina web és l'inici del que podria arribar a ser el servei climàtic
 API de AEMET, la qual et dona informació general per cada un dels sectors desenvolupats i proporciona informació de l'estat del cel, provabilitat de pluja,
   provailitat de tempesta, temperatura i ràfegues de vent. És a dir, condicions que cal saber per poder practicar l'esport.
   
-- Incorporar un banner, un navegador i un flooter amb enllaç a les XXSS.
+- Incorpora un banner, un navegador i un flooter amb enllaç a les XXSS.
 
 ##Metodologia emprada
 
@@ -69,6 +71,6 @@ La creació de la pàgina es pot dividir en 3 fases:
 - El JavaScript és un llenguatge molt més complex que m'ha resultat difícil d'integrar a la pàgina web. Tot i així reconec el seu gran potencial.
 - L'eina utilitzada per exportar el mapa (qgis2wb) ha estat molt útil tot i algunes limitacions i bugs existents. S'hauria de continuar desenvolupant per facilitar aquesta tasca, encara que s'ha d'agrair la feina feta sense ànim de lucre per part dels desenvolupadors.
 - Una vegada feta tota la feina encara queden possibles millores. Des d'aquest punt de vista es podria dir que sempre hi ha marge de millora encara que s'hi dediqui molt de temps.
-
+- La facilitat que et dona el plugin qgis2web és verdaderament important, ara bé, dificultaria fer un mapa interactiu automatitzat i amb funcions que permetin actualitzar al mateix moment la informació.
 - He complert els objectius que s'em demanava amb satisfacció.
 
